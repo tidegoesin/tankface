@@ -40,6 +40,7 @@ class Game:
             self.draw()
 
     def update(self):
+        print("ITSWORKING")
         self.allSprites.update()
         self.camera.centerOn(self.playerTank, MAPWIDTH, MAPHEIGHT)
         for sprite in self.allSprites:
