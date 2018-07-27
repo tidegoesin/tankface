@@ -1,4 +1,5 @@
 # REQUIRES installed pygame
+# mojzmiana
 
 import pygame as pg
 import sys
