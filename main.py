@@ -65,7 +65,7 @@ class Game:
         if pressed[pg.K_RIGHT]:
             angle = -self.dt * 3
         if pressed[pg.K_DOWN]:
-            acceleration = -5000*self.dt
+            acceleration = -500*self.dt
         if pressed[pg.K_UP]:
             acceleration = 1000*self.dt
         self.playerTank.feedInputs(angle, acceleration)
